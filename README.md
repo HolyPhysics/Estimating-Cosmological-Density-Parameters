@@ -68,7 +68,6 @@ This relationship is only an approximation. In the cell below, I've provided the
 - matplotlib
 - astropy
 - astroML
-- scikit-learn
 
 ### Installation Command
 
