@@ -10,10 +10,10 @@ There are two primary contributors to the density of the Universe today: matter 
 The density of matter and dark energy relative to the critical density is given by the unitless parameters:
 
 $$ 
-\Omega_m = \frac{\rho_m}{ \rho_{critical} }
-\noindent
-\newline
-\Omega_{\Lambda} = \frac{\rho_{\Lambda}}{ \rho_{critical} }
+\begin{cases}
+\Omega_m & = \frac{\rho_m}{ \rho_{critical} } \\
+\Omega_{\Lambda} & = \frac{\rho_{\Lambda}}{ \rho_{critical} }
+\end{cases}
 $$
 
 The sum of which is the total density relative to the critical density,  $\Omega = \Omega_m + \Omega_{\Lambda}$. Here $\Lambda$ is the cosmological constant, which Einstein introduced when he formulated General Relativity. Today, $\Lambda$ is given a different interpretation, related to an energy density of the vacuum, which is what we think powers dark energy. The values of the cosmological parameters are known quite accurately today, with values of $\Omega_m = 0.3$ and $\Omega_{\Lambda} = 0.7$, partly due to studies of distant supernova using datasets similar to the one you'll be working with today.
