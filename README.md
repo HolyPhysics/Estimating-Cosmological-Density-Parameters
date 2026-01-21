@@ -1,20 +1,22 @@
 # Estimating Cosmological Density Parameters
-In this project, I run an MCMC analysis on the supernova redshift-DM dataset to determine the cosmological parameters $ \Omega_m $ and $ \Omega_{\Lambda} $
+In this project, I run an MCMC analysis on the supernova redshift-DM dataset to determine the cosmological parameters $\Omega_m$ and $\Omega_{\Lambda}$
 
 Supernovae occur when massive stars explode at the end of their lives. A very particular type of supernova, known as a Type Ia, occurs when a white dwarf star in a binary pair with a red dwarf star steals mass from the red dwarf until it is too massive to support itself against gravity. When this happens, the white dwarf collapses, starting a runaway nuclear reaction and a bright explosion. Because the white dwarf collapse always occurs at the same critical mass (known as the Chandrasekhar Mass, 1.44  𝑀⊙ ), the resulting explosion always has the same luminosity. As a result, supernovae are known as Standard Candles. Comparing this luminosity to the observed brightness of the star allows one to estimate the distance to the supernova. We can also idependently measure the redshift to the galaxy that hosts the supernova explosion by observing the redward shift of spectral lines in the galaxy's spectrum.
 
 It turns out that the relationship between redshift and the distance to galaxies depends on the curvature of space-time. Massive objects like the Sun or the Earth cause local space-time to warp around them, but the same thing happens to the overall curvature of space-time due to the mass and energy density of the entire Universe (energy bends space-time just like matter does). This curvature will change the relationship between redshift and distance. Since we can measure both redshift and distance independently for supernovae, they allow us to constrain the density of the Universe.
 
-There are two primary contributors to the density of the Universe today: matter and dark energy. The first slows the expansion of the Universe, while the latter accelerates it. Both bend space-time and affect its curvature. The density of the Universe is usually expressed in terms of the dimensionless Density Parameter, $ \Omega $. The density parameter is the ratio of the average density of matter and energy in the Universe to the critical density,  $ \rho_{critical} $, the density at which the Universe would have a flat space-time (no curvature). Add too much matter, and the Universe becomes "closed", with positive curvature. Spheres like the Earth have positive curvature (except in 3D instead of 4D). Add too much dark energy and the Universe becomes "open", with negative curvature. Strike the right balance and space-time will be flat.
+There are two primary contributors to the density of the Universe today: matter and dark energy. The first slows the expansion of the Universe, while the latter accelerates it. Both bend space-time and affect its curvature. The density of the Universe is usually expressed in terms of the dimensionless Density Parameter, $\Omega$. The density parameter is the ratio of the average density of matter and energy in the Universe to the critical density,  $\rho_{critical}$, the density at which the Universe would have a flat space-time (no curvature). Add too much matter, and the Universe becomes "closed", with positive curvature. Spheres like the Earth have positive curvature (except in 3D instead of 4D). Add too much dark energy and the Universe becomes "open", with negative curvature. Strike the right balance and space-time will be flat.
 
 The density of matter and dark energy relative to the critical density is given by the unitless parameters:
 
 $$ 
-\Omega_m = \frac{\rho_m}{ \rho_{critical} } \\
+\Omega_m = \frac{\rho_m}{ \rho_{critical} }
+\noindent
+\newline
 \Omega_{\Lambda} = \frac{\rho_{\Lambda}}{ \rho_{critical} }
 $$
 
-The sum of which is the total density relative to the critical density,  $ \Omega = \Omega_m + \Omega_{\Lambda} $. Here $ \Lambda $ is the cosmological constant, which Einstein introduced when he formulated General Relativity. Today, $ \Lambda $ is given a different interpretation, related to an energy density of the vacuum, which is what we think powers dark energy. The values of the cosmological parameters are known quite accurately today, with values of $ \Omega_m = 0.3 $ and $ \Omega_{\Lambda} = 0.7 $, partly due to studies of distant supernova using datasets similar to the one you'll be working with today.
+The sum of which is the total density relative to the critical density,  $\Omega = \Omega_m + \Omega_{\Lambda}$. Here $\Lambda$ is the cosmological constant, which Einstein introduced when he formulated General Relativity. Today, $\Lambda$ is given a different interpretation, related to an energy density of the vacuum, which is what we think powers dark energy. The values of the cosmological parameters are known quite accurately today, with values of $\Omega_m = 0.3$ and $\Omega_{\Lambda} = 0.7$, partly due to studies of distant supernova using datasets similar to the one you'll be working with today.
 
 
 ---
